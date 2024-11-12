@@ -55,6 +55,7 @@ function Loggin() {
                 </form>
             </div>
         </div>
+        
     );
 };
 
