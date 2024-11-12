@@ -1,0 +1,15 @@
+.App {
+/*    background-image: url('../assets/img/background_image.jpg');*/
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+    
+  h1 {
+    margin-bottom: 0.5rem;
+  }
+  
+  h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }

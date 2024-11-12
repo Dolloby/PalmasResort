@@ -1,0 +1,63 @@
+.search-container {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.3); /* Color de fondo semitransparente */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+  }
+  
+  /* Título del buscador */
+  .search-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #10403B;
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos para el input de búsqueda */
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para los inputs de fecha */
+  .date {
+    display: flex;
+    justify-content: space-between;
+  }
+    
+  .date-input {
+    width: 48%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+
+  /* Estilos para el botón de búsqueda */
+  .search-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #20c997; /* Color del botón */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .search-button:hover {
+    background-color: #1ca986; /* Color del botón al pasar el ratón */
+  }
